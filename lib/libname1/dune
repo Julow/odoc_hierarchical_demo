@@ -1,0 +1,3 @@
+(library
+ (name libname1)
+ (public_name mypackage))

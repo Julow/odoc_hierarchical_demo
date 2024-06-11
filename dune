@@ -1,0 +1,5 @@
+(install
+ (section doc)
+ (files
+  (glob_files_rec
+   (doc/* with_prefix odoc-pages))))

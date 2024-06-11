@@ -1,0 +1,9 @@
+{0 Mypackage}
+
+This package has two usecases:
+- {!usecase1/index}
+- {!usecase2/index}
+
+This also the libraries:
+- {!//libname1/Libname1}
+- {!//libname2/Libname2}

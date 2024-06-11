@@ -1,0 +1,30 @@
+lib: [
+  "_build/install/default/lib/mypackage/META"
+  "_build/install/default/lib/mypackage/dune-package"
+  "_build/install/default/lib/mypackage/libname1.a"
+  "_build/install/default/lib/mypackage/libname1.cma"
+  "_build/install/default/lib/mypackage/libname1.cmi"
+  "_build/install/default/lib/mypackage/libname1.cmt"
+  "_build/install/default/lib/mypackage/libname1.cmx"
+  "_build/install/default/lib/mypackage/libname1.cmxa"
+  "_build/install/default/lib/mypackage/libname1.ml"
+  "_build/install/default/lib/mypackage/libname2/libname2.a" {"libname2/libname2.a"}
+  "_build/install/default/lib/mypackage/libname2/libname2.cma" {"libname2/libname2.cma"}
+  "_build/install/default/lib/mypackage/libname2/libname2.cmi" {"libname2/libname2.cmi"}
+  "_build/install/default/lib/mypackage/libname2/libname2.cmt" {"libname2/libname2.cmt"}
+  "_build/install/default/lib/mypackage/libname2/libname2.cmx" {"libname2/libname2.cmx"}
+  "_build/install/default/lib/mypackage/libname2/libname2.cmxa" {"libname2/libname2.cmxa"}
+  "_build/install/default/lib/mypackage/libname2/libname2.ml" {"libname2/libname2.ml"}
+  "_build/install/default/lib/mypackage/opam"
+]
+libexec: [
+  "_build/install/default/lib/mypackage/libname1.cmxs"
+  "_build/install/default/lib/mypackage/libname2/libname2.cmxs" {"libname2/libname2.cmxs"}
+]
+doc: [
+  "_build/install/default/doc/mypackage/odoc-pages/index.mld" {"odoc-pages/index.mld"}
+  "_build/install/default/doc/mypackage/odoc-pages/usecase1/example.mld" {"odoc-pages/usecase1/example.mld"}
+  "_build/install/default/doc/mypackage/odoc-pages/usecase1/index.mld" {"odoc-pages/usecase1/index.mld"}
+  "_build/install/default/doc/mypackage/odoc-pages/usecase2/example.mld" {"odoc-pages/usecase2/example.mld"}
+  "_build/install/default/doc/mypackage/odoc-pages/usecase2/index.mld" {"odoc-pages/usecase2/index.mld"}
+]
